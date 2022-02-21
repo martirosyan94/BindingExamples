@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StudentInformation.FW.Model\StudentInformation.FW.Model.csproj" />
+    <ProjectReference Include="..\StudentInformation.FW.ViewModel\StudentInformation.FW.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
